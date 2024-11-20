@@ -5,7 +5,7 @@ const inter = Inter({subsets: ['latin']});
 
 const Navbar = () => {
 
-    let nav = [
+    let menu = [
         {name: "Work",
         link: "#"
         },
@@ -21,7 +21,7 @@ const Navbar = () => {
     return(
         <ul className={`${inter.className} flex justify-end items-center gap-6 h-[24px] text-[20px] font-medium m-[66px]`}>
           
-         { nav.map((item, i) => (
+         { menu.map((item, i) => (
             <li key={i}>
                 <Link href={item.link}>
                 {item.name}
