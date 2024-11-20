@@ -5,7 +5,7 @@ const inter = Inter({subsets: ['latin']});
 
 const Navbar = () => {
 
-    let menu = [
+    const menu = [
         {name: "Work",
         link: "#"
         },
