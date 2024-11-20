@@ -2,7 +2,7 @@ import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
 import Hero from '@/components/hero';
 import Post from '@/components/recentpost';
-import FeaturedPost from '@/components/featuredpost';
+import FeaturedPost from '@/components/featuredPost';
 
 export default function Home() {
   return (
