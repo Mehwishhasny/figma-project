@@ -9,7 +9,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        background: "#f6f1f1",
+        buttonColor: "#F98585",
+        sectionbg: "#F4E2E2",
+        textColor: "#21243D",
+        footerColor: "#faf5f5",
+        eclipseColor: "#dfd8d8",
         foreground: "var(--foreground)",
       },
     },
